@@ -1,0 +1,156 @@
+body {
+    overflow-x: hidden;
+}
+<!--MENU-->
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+#menu button {
+    font-size: 18px;
+    font-weight: bolds;
+}
+
+
+.carousel-inner {
+    max-height: 400px; 
+}
+
+@media (max-width: 1200px){
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    #div-contacto {
+        top: -80px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #intro #equipo {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100%;
+    }
+    #div-contacto {
+        top: -80px;
+        margin-top: 40px;
+    }
+    #contenedor-formulario {
+        margin-top: 30px;
+    }
+    .ar-text {
+        width: 50px;
+    }
+}
+@media (max-width: 576px) {
+    .icon-serv {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .img-equi {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .ar-text {
+        width: 50px;
+    }
+    footer p {
+        margin-top: 20px;
+    }
+    #num-local {
+        width: 60vw;
+        margin: auto;
+    }
+    #num-local div {
+        font-size: 10px !important;
+        
+    }
+    #num-local div:not(:first-child){
+        padding-right: 10px !important;
+    }
+    #div-contacto {
+        top: -110px !important;
+    }
+}
+#local {
+    background: #f3f3f3;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 50px;
+    margin: auto;
+}
+#num-local div {
+    padding-left: 20px;
+    height: 48px;
+}
+#num-local div:not(:last-child) {
+    border-right: 2px solid #3f3f3f;
+    padding-right: 10px;
+}
+#num-local div:not(:first-child){
+    padding-right: 10px;
+}
+#num-local p {
+    margin: 0;
+}
+
+
+#div-contacto {
+    position: relative;
+    top: -130px;
+}
+#sec-contacto {
+    height: 500px;
+    position: relative;
+}
+#servicios-tipo {
+    justify-content: center;
+}
+#contenedor-formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f3f3f3;
+    border-radius: 5px;
+    max-width: 500px;
+}
+#titulo-formulario {
+    color: #3f3f3f;
+}
+.img-formulario {
+    padding-right: 45px;
+}
+
+footer {
+    background-color: #1b2a3e;
+    min-height: 150px;
+    padding-top: 70px;
+}
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+#iconos {
+    padding-top: 10px;
+}
+#iconos i {
+    font-size: 26px;
+    padding: 0 9px;
+    color: #f3f3f3;
+}
